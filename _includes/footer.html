@@ -1,0 +1,20 @@
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3>{{ site.title }}</h3>
+        <p>E-mail: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+
+        {% if site.github_username %}
+        <p>GitHub: <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a></p>
+        {% endif %}
+
+        {% if site.twitter_username %}
+        <p>Twitter: @<a href="https://twitter.com/{{ site.twitter_username }}">{{ site.twitter_username }}</a></p>
+        {% endif %}
+
+        <p>{{ site.description }}</p>
+      </div>
+    </div>
+  </div>
+</footer>
