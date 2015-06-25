@@ -13,16 +13,10 @@ You will need to have [Jekyll](http://jekyllrb.com/ "Jekyll") installed to utili
 
 ## How to run locally
 
-1. Clone this repository:
-
-git clone https://github.com/irmbrady/jekyll-bootstrap-sass.git
-2. Go into the directory:
-
-cd jekyll-bootstrap-sass
-3. Run Jekyll:
-
-jekyll serve
-4. Open your browser and go to http://localhost:4000
+1. Clone this repository: git clone https://github.com/irmbrady/jekyll-bootstrap-sass.git 
+2. Go into the directory: cd jekyll-bootstrap-sass 
+3. Run Jekyll: jekyll serve 
+4. Open your browser and navigate to: http://localhost:4000 
 
 ## Deployment
 
